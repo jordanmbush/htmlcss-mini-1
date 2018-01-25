@@ -1,3 +1,6 @@
+body {
+    background: #eee;
+}
 header {
     height: 100px;
     background: #333;
@@ -24,4 +27,47 @@ header {
     height: 50px;
     /* border: 1px red solid; */
     margin-top: 25px;
+}
+
+main {
+    background: #eee;
+}
+
+section {
+    width: 75%;
+    border: 1px red solid;
+    margin: 100px auto 0;
+    background: #000000;
+}
+
+.section-box1 {
+    width: 80%;
+    height: 100px;
+}
+
+.section-box2 {
+    width: 60%;
+    height: 100px;
+}
+
+
+.white-box {
+    background: #eee;
+    margin: 100px auto 0;
+}
+
+.section-box3 {
+    width: 70%;
+    margin: 0 auto 50px;
+}
+
+.pill {
+    height: 40px;
+    width: 49%;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.right-box {
+    margin-left: 5px;
 }
